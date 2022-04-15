@@ -1,0 +1,61 @@
+body{
+    font-family:'Knewave';
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+.navbar>.container{
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0;
+}
+
+#brand-name{
+    display: none;
+}
+
+#logo-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    /* display: none; */
+}
+
+#cover-img{
+    background-image:url('../img/cover/cover-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    filter:brightness(95%) saturate(120%) contrast(90%);
+}
+
+#cover-text{
+   font-size: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   left: 38%;
+   top: 55%;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+@media only screen and (max-width:992px){
+    .navbar>.container{
+        margin: 10px 50px;
+    }
+    /* #cover-text{
+        display: none;
+    } */
+}
+
+@media only screen and (max-width:768px){
+
+}
