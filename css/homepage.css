@@ -53,6 +53,7 @@ button.navbar-toggler{
 
 #about-us{
     background-color: #E5C981;
+    height: auto;
 }
 
 #about-us .col-lg-5{
@@ -68,8 +69,12 @@ button.navbar-toggler{
     box-shadow: 2px 3px  #4A5864;
 }
 
-div .row-about{
+.row-about{
     margin-right: 30px;
+}
+
+.row-about p{
+    font-family: "微軟正黑體", sans-serif;
 }
 
 #about-img{
@@ -81,7 +86,23 @@ div .row-about{
 
 #our-features{
     background-color: #4A5864;
-    height: 350px;
+    height: auto;
+}
+
+#our-features img{
+    width: 7vw;
+}
+
+div .row-features{
+    padding-top: 40px;
+}
+
+.features-description, .features-item{
+    font-family: "微軟正黑體", sans-serif;
+}
+
+#features-row1{
+    padding: 0px 40px;
 }
 
 
@@ -112,6 +133,12 @@ div .row-about{
 }
 
 @media only screen and (max-width:768px){
+    #our-features img{
+        width: 12vw;
+    }
+    .features-item{
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width:576px){
@@ -119,4 +146,13 @@ div .row-about{
         left: 17%;
         top: 45%;
     }
+    #about-img{
+        width: 85vw;
+        height: 300px;
+    }
+    #about-us .col-lg-7 .btn-outline-secondary{
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    
 }
