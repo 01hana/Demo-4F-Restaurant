@@ -21,7 +21,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    filter:brightness(95%) saturate(120%) contrast(90%);
+    filter:brightness(100%) saturate(130%) contrast(90%);
 }
 
 #cover-text{
@@ -51,16 +51,72 @@ button.navbar-toggler{
     color: white;
 }
 
+#about-us{
+    background-color: #E5C981;
+}
+
+#about-us .col-lg-5{
+    padding: 0;
+}
+
+#about-us .col-lg-7{
+    padding-top: 40px;
+}
+
+#about-us .col-lg-7 .btn-outline-secondary{
+    border: 1px solid #4A5864;
+    box-shadow: 2px 3px  #4A5864;
+}
+
+div .row-about{
+    margin-right: 30px;
+}
+
+#about-img{
+    width: 40vw;
+    height: 300px;
+    float: left;
+    margin-right: 40px;
+}
+
+#our-features{
+    background-color: #4A5864;
+    height: 350px;
+}
+
+
+
 @media only screen and (max-width:992px){
     .navbar>.container{
-        margin: 10px 50px;
+        margin: 10px 30px;
     }
     #logo-img{
         width: 50px;
         height: 50px;
     }
+    #about-us .col-lg-5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+    }
+    #about-img{
+        width: 90vw;
+        height: 400px;
+        margin: 0;
+        border-radius: 10px;
+    }
+    #about-us .col-lg-7{
+        padding-left: 45px;
+    }
 }
 
 @media only screen and (max-width:768px){
+}
 
+@media only screen and (max-width:576px){
+    #cover-text{
+        left: 17%;
+        top: 45%;
+    }
 }
