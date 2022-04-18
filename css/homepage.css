@@ -97,7 +97,7 @@ div .row-features{
     padding-top: 40px;
 }
 
-.features-description, .features-item{
+.features-description, .features-item, .row-footer p{
     font-family: "微軟正黑體", sans-serif;
 }
 
@@ -118,23 +118,139 @@ div .row-features{
     color: #E5C981;
 }
 
-.row-recommand .img{
-    height: 280px;
-}
-
 .row-recommand .btn-outline-warning{
-    /* color: #E5C981; */
+    color: #E5C981;
     border: 1px solid #E5C981;
     box-shadow: 2px 3px  #E5C981;
 }
 
-/* .row-recommand .btn-outline-warning:hover{
+.row-recommand .btn-outline-warning:hover{
     color: white;
-} */
+}
 
-#share-media{
-    background-color: rgb(241, 202, 202);
+#recommand-item1{
+    background-image: url('../img/main-dish/爐烤百蘭地櫻桃鴨胸.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 280px;
+    position: relative;
+}
+
+#recommand-item2{
+    background-image: url('../img/main-dish/摩洛哥燉羊膝.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 280px;
+    position: relative;
+}
+
+#recommand-item3{
+    background-image: url('../img/spaghetti/明太子\ 鮮蝦\ 奶油義大利麵.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 280px;
+    position: relative;
+}
+
+#recommand-item4{
+    background-image:url('../img/Risotto/農場炸雞佐野菇燉飯.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 280px;
+    position: relative;
+}
+
+#recommand-item5{
+    background-image:url('../img/appetizer/科西嘉島豬肉卷.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 280px;
+    position: relative;
+}
+
+#recommand-item6{
+    background-image:url('../img/appetizer/白絲絨生醃小捲.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 280px;
+    position: relative;
+}
+
+#recommand-item7{
+    background-image:url('../img//main-dish/西班牙海鮮烤飯.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 280px;
+    position: relative;
+}
+
+#recommand-item8{
+    background-image:url('../img/dessert/卡士達草莓塔.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 280px;
+    position: relative;
+}
+
+#recommand-item1 span,#recommand-item2 span,#recommand-item3 span,#recommand-item4 span,#recommand-item5 span,#recommand-item6 span,#recommand-item7 span,#recommand-item8 span{
+    position:absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    display: none;
+}
+
+#recommand-item1:hover span, #recommand-item2:hover span, #recommand-item3:hover span, #recommand-item4:hover span, #recommand-item5:hover span, #recommand-item6:hover span, #recommand-item7:hover span, #recommand-item8:hover span{
+    display: block;
+}
+
+#recommand-row2 .col-md-3:hover{
+    filter: brightness(.8);
+}
+
+#share-media div{
+    background-color: rgb(255, 255, 255);
     height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#share-media img{
+    width: 30px;
+    height: 30px;
+    margin: 0 15px;
+}
+
+footer{
+    background-color: #E5C981;
+    height: auto;
+}
+
+.row-footer{
+    padding-top: 40px;
+}
+
+.row-footer a{
+    font-family: "微軟正黑體", sans-serif;
+    text-decoration: none;
+}
+
+#footer-description{
+    width: 24vw;
+}
+
+#copyright{
+    font-size: 12px;
+    margin: 10px 0;
 }
 
 
@@ -163,14 +279,11 @@ div .row-features{
     #about-us .col-lg-7{
         padding-left: 45px;
     }
-    .row-recommand .img{
-        width: 40vw;
-    }
     #recommand-row2, #recommand-btn{
         --bs-gutter-x: 0rem;
     }
-    #recommand-row2 .col-sm-5{
-        margin-bottom: 20px;
+    #footer-description{
+        width: 42vw;
     }
 }
 
@@ -180,6 +293,9 @@ div .row-features{
     }
     .features-item{
         font-size: 18px;
+    }
+    #footer-description{
+        width: 50vw;
     }
 }
 
@@ -196,12 +312,8 @@ div .row-features{
         margin-bottom: 20px;
         font-size: 14px;
     }
-    .row-recommand .img{
-        width: 60vw;
-        border-radius: 10px;
-    }
-    #recommand-row2 .col-sm-6{
-        margin-bottom: 20px;
+    #footer-description{
+        width: 70vw;
     }
     
 }
