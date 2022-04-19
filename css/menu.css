@@ -3,10 +3,15 @@ body{
     margin: 0;
 }
 
+.navbar{
+    padding: 0;
+}
+
 .navbar>.container{
     justify-content: flex-start;
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
     padding: 0;
 }
 
@@ -31,12 +36,31 @@ button.navbar-toggler{
 
 .navbar>.container h4{
     color: #2b2c2c;
-    
 }
 
 .navbar-nav{
     margin-left: auto;
 }
+
+#menu-cover .container-fluid{
+    padding: 0; 
+}
+
+.container-fluid .jumbotron{
+    background-image: url('../img/cover/cover-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    filter:brightness(90%) saturate(130%) contrast(90%);
+    position: relative;
+}
+
+#menu-cover-text{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+
 
 @media only screen and (max-width:992px){
     .navbar>.container {
