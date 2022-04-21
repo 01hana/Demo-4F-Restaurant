@@ -67,16 +67,31 @@ button.navbar-toggler{
 }
 
 #menu-note{
-    height: 150px;
+    height: 250px;
+    flex-direction: column;
+}
+
+#menu-note p{
+    font-family: "微軟正黑體", sans-serif;
+    font-size: 16px;
+    color: #4A5864;
 }
 
 #main-menu .nav-link{
+    color: #2b2c2c;
+}
+
+#main-menu .nav-link, #menuTabContent .col-lg-3 h6, #beverage .col-md-7 ul li, #drink .col-md-7 ul li{
     font-family: "微軟正黑體", sans-serif;
 }
 
 #menuTabContent .col-lg-3 img{
     width: 100%;
     height: 225px;
+}
+
+#beverage .col-md-4 img{
+    width: 100%;
 }
 
 .tab-content {
@@ -98,15 +113,23 @@ button.navbar-toggler{
     #main-menu .container{
         max-width: 90%;
     }
-    #menuTabContent .col-md-3 img{
-        /* height: 225px; */
+    #beverage .col-12 h5, #drink .col-12 h5{
+        font-size: 18px;
+    }
+    #beverage .col-md-7 ul li, #drink .col-md-7 ul li{
+        font-size: 16px;
     }
 }
 
 @media only screen and (max-width:768px){
-
+    #beverage .col-md-7 ul li, #drink .col-md-7 ul li{
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width:576px){
-
+    #beverage .col-12, #drink .col-12{
+        flex-direction: column;
+        
+    }
 }
