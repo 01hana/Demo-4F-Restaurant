@@ -81,6 +81,15 @@ main .col-lg-7, main .col-lg-6, .features-description, .features-item, .row-foot
     width: 7vw;
 }
 
+#enviornment h2{
+    color: #E5C981;
+}
+
+#enviornment img{
+    width: 100%;
+    height: 350px;
+}
+
 @media only screen and (max-width:992px){
     .navbar>.container {
         margin: 10px 25px;
@@ -88,6 +97,9 @@ main .col-lg-7, main .col-lg-6, .features-description, .features-item, .row-foot
     #logo-img{
         width: 48px;
         height: 48px;
+    }
+    #enviornment img{
+        height: 280px;
     }
 }
 
