@@ -252,9 +252,6 @@ footer{
     margin: 10px 0;
 }
 
-
-
-
 @media only screen and (max-width:992px){
     .navbar>.container{
         margin: 10px 30px;
@@ -300,7 +297,6 @@ footer{
 
 @media only screen and (max-width:576px){
     #cover-text{
-        left: 17%;
         top: 45%;
     }
     #about-img{
